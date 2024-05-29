@@ -34,9 +34,9 @@ The Sketching board will simulate sketch through the squares changing colour whe
 
 ### Answers
 
-1. User interface a functionality
+**1. User interface a functionality**
 
-The program will have a user interface:
+*The program will have a user interface:*
 
 - a large box located in the bottom half of the client screen containing grids of transparent borders, by default 16x16 squares large and by further user definition, any amount they specify. 
 
@@ -48,15 +48,15 @@ The program will have a user interface:
 
 - a standard browser styled popup for when the user clicks the button to change the amount of squares in the board
 
-The program will have the following functionalities:
+*The program will have the following functionalities:*
 
 - the large box's squares will be controlled by the user, they can press the button and the amount of squares per side of the box will be in their control to specify
 
 - when the user clicks and holds their mouse over the etch-a-sketch board, the squares pressed down on will change colour to black from white
 
-2. Inputs and where will they come from
+**2. Inputs and where will they come from**
 
-The inputs expected from the user will be:
+*The inputs expected from the user will be:*
 
 - clicking on the button to request a screen size changer popup
 
@@ -64,11 +64,11 @@ The inputs expected from the user will be:
 
 - clicking on the board to change a grid square from white to black
 
-The inputs expected from the program will be:
+*The inputs expected from the program will be:*
 
 - the initial size of the board which will be 16 squares in width and 16 squares in height
 
-3. Desired outputs of the program
+**3. Desired outputs of the program**
 
 - the squares turning black after user presses down over the square
 
@@ -76,7 +76,7 @@ The inputs expected from the program will be:
 
 - giving the user a prompt to fill out through the popup
 
-4. Steps that link inputs to outputs
+**4. Steps that link inputs to outputs**
 
 - user clicks a square on the board, through an event listener and the mousedown event, identify which square (div) that was clicked by using that event object in the event listener appended to every div element representing a square on the board. Fill the background colour to black through JavaScript and a predefined class in CSS with the 'background-color' property set to the value 'black'
 
