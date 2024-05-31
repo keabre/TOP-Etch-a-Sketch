@@ -1,0 +1,14 @@
+#sketch-board-container {
+    height: 600px;
+    width: 1000px;
+    border: 1px solid black;
+}
+
+
+body {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    flex-direction: column;
+    gap: 50px; 
+}
