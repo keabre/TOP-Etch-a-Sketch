@@ -2,6 +2,8 @@
     height: 600px;
     width: 1000px;
     border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -11,4 +13,13 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 50px; 
+}
+
+.square-in-grid {
+    border: 1px solid black;
+    flex: 1 1 auto;
+}
+
+.white-to-black {
+    background-color: #000000
 }
