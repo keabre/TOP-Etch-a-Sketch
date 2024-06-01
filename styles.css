@@ -25,7 +25,3 @@ body {
     max-width: calc(100% / var(--square-div-amount));
     max-height: calc(100% / var(--square-div-amount));
 }
-
-.white-to-black {
-    background-color: #000000
-}
