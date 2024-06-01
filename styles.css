@@ -2,6 +2,12 @@
     --square-div-amount: 16;
 }
 
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
 #sketch-board-container {
     height: 600px;
     width: 1000px;
@@ -20,8 +26,7 @@ body {
 }
 
 .square-in-grid {
-    border: 1px solid black;
     flex: 1 1 auto;
-    max-width: calc(100% / var(--square-div-amount));
-    max-height: calc(100% / var(--square-div-amount));
+    min-width: calc(100% / var(--square-div-amount));
+    min-height: calc(100% / var(--square-div-amount));
 }

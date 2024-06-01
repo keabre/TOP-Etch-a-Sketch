@@ -5,7 +5,7 @@ const changeGridButton = document.querySelector("#change-grid-button")
 
 // Global variables
 
-const gridSquares = 16
+let gridSquares = 16
 
 // Clear Grid Function
 
@@ -18,7 +18,7 @@ function clearGrid() {
 // Generate Grid Function
 
 function generateGrid() {
-    let i = gridSquares  // used as the counter to decrement
+    let i = gridSquares * gridSquares // used as the counter to decrement
 
     for (i; i > 0; i--) {
         const squareDiv = document.createElement("div")
