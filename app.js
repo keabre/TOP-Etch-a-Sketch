@@ -42,3 +42,9 @@ changeGridButton.addEventListener("click", () => {
     clearGrid()
     generateGrid()
 })
+
+// Run generateGrid function to load default board
+
+if (!sketchBoard.hasChildNodes()) {
+    generateGrid()
+}
