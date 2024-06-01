@@ -26,6 +26,7 @@ function generateGrid() {
         squareDiv.addEventListener("mousedown", () => {
             squareDiv.setAttribute("class", "white-to-black")
         })
+        squareDiv.style.setProperty('--square-div-amount', gridSquares)
         sketchBoard.appendChild(squareDiv)
     }
 }
