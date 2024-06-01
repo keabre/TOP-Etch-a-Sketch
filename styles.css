@@ -2,12 +2,6 @@
     --square-div-amount: 16;
 }
 
-*, 
-*::before, 
-*::after {
-    box-sizing: border-box;
-}
-
 #sketch-board-container {
     height: 600px;
     width: 1000px;

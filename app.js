@@ -23,7 +23,7 @@ function generateGrid() {
     for (i; i > 0; i--) {
         const squareDiv = document.createElement("div")
         squareDiv.setAttribute("class", "square-in-grid")
-        squareDiv.addEventListener("mousedown", () => {
+        squareDiv.addEventListener("mousemove", () => {
             squareDiv.style.backgroundColor = '#000000'
         })
         squareDiv.style.setProperty('--square-div-amount', gridSquares)
